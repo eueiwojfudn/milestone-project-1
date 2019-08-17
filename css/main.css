@@ -1,0 +1,207 @@
+/****** STYLES BASE ******/
+
+body {
+    background-color: #fff;
+    color: #1f202b;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/****** HAUTEUR DES SECTIONS ******/
+
+header {
+    height: 800px;
+}
+
+#portfolio {
+    height: 1500px;
+}
+
+#a-propos {
+    height: 550px;
+}
+
+#me-joindre {
+    height: 400px;
+}
+
+/****** GRILLE ******/
+
+.full-width {
+    margin: 0 auto;
+    width: 1400px;
+}
+
+.half-width {
+    float: left;
+    width: 700px;
+}
+
+.third-width {
+    float: left;
+    width: 466.66px;
+}
+
+/****** EN-TETE ******/
+
+header {
+    background: url('../img/nordwood-themes-unsplash.jpg');
+    background-size: cover;
+}
+
+header h1 {
+    color: #005B59;
+    font-size: 30px;
+    padding: 15px 0 45px 40px;
+}
+
+nav {
+    float: right;
+    margin: 0;
+    padding: 15px 15px 45px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #005B59;
+    font-size: 30px;
+    padding-left: 40px;
+    text-decoration: none;
+}
+
+.strip {
+    margin: 0;
+    padding: 0;
+}
+
+header h2 {
+    clear: both;
+    color: #F9F9F9;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 80px;
+    padding: 200px 0 20px 100px;
+    text-shadow: 2px 2px #005B59;
+    width: 650px;
+
+}
+
+header h2 span {
+    color: #D2FFFE;
+}
+
+/****** PORTFOLIO ******/
+
+#portfolio h2 {
+    color: #017C79;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 20px 0 50px 0;
+    text-align: center;
+}
+
+#portfolio img {
+    border: 2px solid #1f202b;
+}
+
+#portfolio h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+#portfolio h3 .subtitle {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+#portfolio #project-2, #portfolio #project-3 {
+    clear: both;
+    padding: 80px 0;
+}
+
+#portfolio p {
+    font-size: 24px;
+    padding-right: 100px;
+}
+
+/****** A PROPOS ******/
+
+#a-propos {
+    background: url('../img/plush-design-from-unsplash.jpg');
+    background-size: cover;
+}
+
+#a-propos .full-width {
+    padding: 0 300px;
+}
+
+#a-propos h2 {
+    clear: both;
+    color: #017C79;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0;
+    padding: 40px 0 0 0;
+    text-align: center;
+}
+
+#a-propos p {
+    color: #1f202b;
+    font-size: 24px;
+}
+
+/****** ME JOINDRE ******/
+
+#me-joindre h2 {
+    clear: both;
+    color: #017C79;
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 20px 0 25px 0;
+    text-align: center;
+}
+
+#me-joindre h3 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+
+#me-joindre p {
+    font-size: 24px;
+    text-align: center;
+}
+
+#me-joindre p.copyright {
+    font-size: 16px;
+    padding: 225px 0 0 0;
+    text-align: center;
+}
+
+#me-joindre a {
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#me-joindre ul {
+    list-style: none;
+    text-align: center;
+}
+
+#me-joindre ul li {
+     display: inline-block;
+}
+
+#me-joindre ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}

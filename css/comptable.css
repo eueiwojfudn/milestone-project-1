@@ -1,0 +1,12 @@
+/****** HAUTEUR DES SECTIONS ******/
+
+#portfolio {
+    height: 1150px !important;
+}
+
+/****** EN-TETE ******/
+
+header {
+    background: url('../img/montagne-background.jpg') !important;
+    background-size: cover !important;
+}

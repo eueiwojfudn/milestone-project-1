@@ -1,0 +1,17 @@
+/****** HAUTEUR DES SECTIONS ******/
+
+#portfolio {
+    height: 1150px !important;
+}
+
+/****** EN-TETE ******/
+
+header {
+    background: url('../img/medecin-background.jpg') !important;
+    background-size: cover !important;
+}
+
+nav ul li a {
+  color: #F9F9F9 !important;
+  text-shadow: 2px 2px #005B59 !important;
+}
